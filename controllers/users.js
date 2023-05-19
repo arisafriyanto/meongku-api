@@ -1,18 +1,37 @@
-const { Boom } = require("@hapi/boom");
+const { doc, getDoc } = require("firebase/firestore");
+const { db } = require("../config/firebase");
+const Boom = require("@hapi/boom");
 
-const getUserById = (request, h) => {
-  const { name } = request.auth.credentials;
-  const { uid } = request.auth.credentials.uid;
-  const { requestUid } = request.params;
+// const getUserById = (request, h) => {
+//   const { email } = request.auth.credentials;
+//   const { uid } = request.auth.credentials.uid;
+//   const { requestUid } = request.params;
 
-  if (uid === requestUid) {
-    return h.response({
-      statusCode: 200,
-      message: `Hello ${name}! Ini adalah profile kamu`,
-    });
+//   console.log(request.auth.credentials);
+
+//   if (uid === requestUid) {
+//     return h.response({
+//       statusCode: 200,
+//       message: `Hello ${email}! Ini adalah profile kamu`,
+//     });
+//   }
+
+//   return Boom.notFound("User tidak ditemukan");
+// };
+
+const getUserData = async (uid) => {
+  try {
+    const userDoc = doc(db, "users", uid);
+    const docSnap = await getDoc(userDoc);
+
+    if (docSnap.exists()) {
+      return docSnap.data();
+    }
+
+    return null;
+  } catch (error) {
+    throw error;
   }
-
-  return Boom.notFound("User tidak ditemukan");
 };
 
-module.exports = { getUserById };
+module.exports = { getUserData };

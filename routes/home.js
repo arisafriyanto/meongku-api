@@ -9,4 +9,14 @@ const home = {
   },
 };
 
-module.exports = home;
+const any = {
+  method: "GET",
+  path: "/{any*}",
+  handler: (request, h) => {
+    return h.response({
+      message: "Page Not Found",
+    });
+  },
+};
+
+module.exports = [home, any];

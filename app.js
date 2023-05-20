@@ -3,6 +3,7 @@ const admin = require("./config/firebase-admin");
 const auth = require("./routes/auth");
 const home = require("./routes/home");
 const users = require("./routes/users");
+const articles = require("./routes/articles");
 const Boom = require("@hapi/boom");
 
 const init = async () => {
@@ -48,6 +49,7 @@ const init = async () => {
   server.route(auth);
   server.route(home);
   server.route(users);
+  server.route(articles);
 
   await server.start();
   console.log("Server running on %s", server.info.uri);

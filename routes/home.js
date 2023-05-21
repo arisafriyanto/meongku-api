@@ -4,6 +4,19 @@ const home = {
   method: "GET",
   path: "/",
   handler: homeHandler,
+  options: {
+    auth: "firebase",
+  },
 };
 
-module.exports = home;
+const any = {
+  method: "GET",
+  path: "/{any*}",
+  handler: (request, h) => {
+    return h.response({
+      message: "Page Not Found",
+    });
+  },
+};
+
+module.exports = [home, any];

@@ -1,9 +1,21 @@
-const admin = require("firebase-admin");
-const serviceAccount = require("./../serviceAccountKey.json");
+const firebase = require("firebase/app");
+const { getAuth } = require("firebase/auth");
+const { getFirestore } = require("firebase/firestore");
+require("dotenv").config();
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  //   databaseURL: "https://<your-firebase-project>.firebaseio.com",
-});
+const firebaseConfig = {
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  projectId: process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.MESSAGING_SENDER_ID,
+  appId: process.env.APP_ID,
+  measurementId: process.env.MEASUREMENT_ID,
+};
 
-module.exports = admin;
+const app = firebase.initializeApp(firebaseConfig);
+
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+module.exports = { auth, db };

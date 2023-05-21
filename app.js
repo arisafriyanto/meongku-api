@@ -1,13 +1,20 @@
 const Hapi = require("@hapi/hapi");
+const admin = require("./config/firebase-admin");
+const auth = require("./routes/auth");
 const home = require("./routes/home");
 const users = require("./routes/users");
+const articles = require("./routes/articles");
 const Boom = require("@hapi/boom");
-const admin = require("./config/firebase");
 
 const init = async () => {
   const server = Hapi.server({
-    port: 3000,
-    host: "localhost",
+    port: process.env.PORT,
+    host: process.env.NODE_ENV !== "production" ? "localhost" : "0.0.0.0",
+    routes: {
+      cors: {
+        origin: ["*"],
+      },
+    },
   });
 
   server.auth.scheme("firebase", () => {
@@ -16,7 +23,7 @@ const init = async () => {
         try {
           const authorizationHeader = request.headers.authorization;
           if (!authorizationHeader) {
-            return Boom.unauthorized("Token tidak diterima");
+            return Boom.unauthorized("Token otentikasi tidak ada");
           }
 
           const idToken = authorizationHeader.replace("Bearer ", "");
@@ -25,13 +32,13 @@ const init = async () => {
 
           const credentials = {
             // Tambahkan informasi pengguna yang diperlukan
-            uid: decodedToken.uid,
-            name: decodedToken.name,
+            user_uid: decodedToken.uid,
+            email: decodedToken.email,
           };
 
           return h.authenticated({ credentials });
         } catch (error) {
-          return Boom.notFound("User tidak ditemukan");
+          return Boom.notFound("Otorisasi gagal");
         }
       },
     };
@@ -39,7 +46,9 @@ const init = async () => {
 
   server.auth.strategy("firebase", "firebase");
 
+  server.route(auth);
   server.route(home);
+  server.route(articles);
   server.route(users);
 
   await server.start();

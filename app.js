@@ -32,7 +32,7 @@ const init = async () => {
 
           const credentials = {
             // Tambahkan informasi pengguna yang diperlukan
-            verifyUid: decodedToken.uid,
+            user_uid: decodedToken.uid,
             email: decodedToken.email,
           };
 
@@ -48,8 +48,8 @@ const init = async () => {
 
   server.route(auth);
   server.route(home);
-  server.route(users);
   server.route(articles);
+  server.route(users);
 
   await server.start();
   console.log("Server running on %s", server.info.uri);

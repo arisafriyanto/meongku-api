@@ -3,10 +3,10 @@ const {
   signInWithEmailAndPassword,
   signOut,
 } = require("firebase/auth");
-const { doc, setDoc, getDoc, updateDoc } = require("firebase/firestore");
+const { doc, setDoc } = require("firebase/firestore");
 const { auth, db } = require("./../config/firebase");
 
-const registerUser = async (name, email, password) => {
+const registerUser = async (name, email, password, phone) => {
   try {
     const userCredential = await createUserWithEmailAndPassword(
       auth,
@@ -20,11 +20,12 @@ const registerUser = async (name, email, password) => {
     await setDoc(userDoc, {
       name,
       email,
+      phone,
     });
 
     return userCredential;
   } catch (error) {
-    console.log("Error registering user:", error);
+    // console.log("Error registering user:", error);
     if (error.code === "auth/email-already-in-use") {
       // Handle email already in use error
       throw new Error(

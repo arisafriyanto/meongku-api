@@ -1,11 +1,11 @@
 const homeHandler = (request, h) => {
-  const { verifyUid } = request.auth.credentials;
+  const { user_uid } = request.auth.credentials;
   return h
     .response({
       statusCode: "200",
       message: "Hello Bangkit Academy",
       data: {
-        uid: verifyUid,
+        uid: user_uid,
       },
     })
     .code(200);

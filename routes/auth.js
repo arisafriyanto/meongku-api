@@ -10,9 +10,9 @@ const register = {
   method: "POST",
   path: "/register",
   handler: async (request, h) => {
-    const { name, email, password } = request.payload;
+    const { name, email, password, phone } = request.payload;
     try {
-      const user = await registerUser(name, email, password);
+      const user = await registerUser(name, email, password, phone);
       const idToken = user._tokenResponse.idToken;
       console.log(idToken);
       return h
@@ -31,9 +31,10 @@ const register = {
   options: {
     validate: {
       payload: Joi.object({
-        name: Joi.string().min(3).max(25).required(),
+        name: Joi.string().min(3).required(),
         email: Joi.string().email().required(),
         password: Joi.string().min(8).required(),
+        phone: Joi.string().min(8).required(),
       }),
     },
   },
@@ -83,8 +84,12 @@ const logoutRoute = {
         message: "User logged out successfully",
       });
     } catch (error) {
+      console.log(error.message);
       return Boom.badRequest("Error logging out user");
     }
+  },
+  options: {
+    auth: "firebase",
   },
 };
 

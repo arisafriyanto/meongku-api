@@ -1,0 +1,1442 @@
+[
+  {
+    "id": 1,
+    "brand": "Royal Canin",
+    "productName": "Maine Coon Kitten",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Maine Coon",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-maine-coon-makanan-anak-kucing-dry-400gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 2,
+    "brand": "Royal Canin",
+    "productName": "Kitten in Gravy",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Maine Coon",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-in-gravy-makanan-anak-kucing-wet-3x85gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 3,
+    "brand": "Royal Canin",
+    "productName": "Maine Coon Adult (Dry)",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Maine Coon",
+    "productLink": "https://www.tokopedia.com/pet-kingdom/royal-canin-maine-coon-adult-dry-makanan-kucing-dewasa-2-kg?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch%26whid%3D13651047"
+  },
+  {
+    "id": 4,
+    "brand": "Royal Canin",
+    "productName": "Maine Coon Adult (Wet)",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Maine Coon",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-maine-coon-makanan-kucing-dewasa-maine-coon-wet-3x85?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 5,
+    "brand": "Royal Canin",
+    "productName": "Maine Coon Kitten",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Maine Coon",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-maine-coon-makanan-anak-kucing-dry-400gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 6,
+    "brand": "Royal Canin",
+    "productName": "Kitten in Gravy",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Maine Coon",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-in-gravy-makanan-anak-kucing-wet-3x85gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 7,
+    "brand": "Royal Canin",
+    "productName": "Maine Coon Adult (Dry)",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Maine Coon",
+    "productLink": "https://www.tokopedia.com/pet-kingdom/royal-canin-maine-coon-adult-dry-makanan-kucing-dewasa-2-kg?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch%26whid%3D13651047"
+  },
+  {
+    "id": 8,
+    "brand": "Royal Canin",
+    "productName": "Maine Coon Adult (Wet)",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Maine Coon",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-maine-coon-makanan-kucing-dewasa-maine-coon-wet-3x85?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 9,
+    "brand": "Royal Canin",
+    "productName": "Maine Coon Kitten",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "Maine Coon",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-maine-coon-makanan-anak-kucing-dry-400gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 10,
+    "brand": "Royal Canin",
+    "productName": "Kitten in Gravy",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Both",
+    "race": "Maine Coon",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-in-gravy-makanan-anak-kucing-wet-3x85gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 11,
+    "brand": "Royal Canin",
+    "productName": "Maine Coon Adult (Dry)",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Both",
+    "race": "Maine Coon",
+    "productLink": "https://www.tokopedia.com/pet-kingdom/royal-canin-maine-coon-adult-dry-makanan-kucing-dewasa-2-kg?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch%26whid%3D13651047"
+  },
+  {
+    "id": 12,
+    "brand": "Royal Canin",
+    "productName": "Maine Coon Adult (Wet)",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Both",
+    "race": "Maine Coon",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-maine-coon-makanan-kucing-dewasa-maine-coon-wet-3x85?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 13,
+    "brand": "Royal Canin",
+    "productName": "KITTEN",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Bengal",
+    "productLink": "https://www.tokopedia.com/pet-kingdom/royal-canin-kitten-dry-makanan-anak-kucing-400-gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch%26whid%3D13651047"
+  },
+  {
+    "id": 14,
+    "brand": "Purina",
+    "productName": "Fancy Feast Kitten Ocean Whitefish",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Bengal",
+    "productLink": "https://www.tokopedia.com/purina/fancy-feast-kitten-ocean-whitefish-makanan-anak-kucing-basah-85gr?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 15,
+    "brand": "Royal Canin",
+    "productName": "Bengal Adult",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Bengal",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-bengal-makanan-kucing-dewasa-dry-400gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 16,
+    "brand": "Purina",
+    "productName": "FANCY FEAST Adult Classic Savory Salmon",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Bengal",
+    "productLink": "https://www.tokopedia.com/purina/fancy-feast-adult-classic-savory-salmon-85gr-x-8pcs-free-pet-bowl?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 17,
+    "brand": "Royal Canin",
+    "productName": "KITTEN",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Bengal",
+    "productLink": "https://www.tokopedia.com/pet-kingdom/royal-canin-kitten-dry-makanan-anak-kucing-400-gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch%26whid%3D13651047"
+  },
+  {
+    "id": 18,
+    "brand": "Purina",
+    "productName": "Fancy Feast Kitten Ocean Whitefish",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Bengal",
+    "productLink": "https://www.tokopedia.com/purina/fancy-feast-kitten-ocean-whitefish-makanan-anak-kucing-basah-85gr?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 19,
+    "brand": "Royal Canin",
+    "productName": "Bengal Adult",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Bengal",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-bengal-makanan-kucing-dewasa-dry-400gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 20,
+    "brand": "Purina",
+    "productName": "FANCY FEAST Adult Classic Savory Salmon",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Bengal",
+    "productLink": "https://www.tokopedia.com/purina/fancy-feast-adult-classic-savory-salmon-85gr-x-8pcs-free-pet-bowl?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 21,
+    "brand": "Royal Canin",
+    "productName": "KITTEN",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "Bengal",
+    "productLink": "https://www.tokopedia.com/pet-kingdom/royal-canin-kitten-dry-makanan-anak-kucing-400-gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch%26whid%3D13651047"
+  },
+  {
+    "id": 22,
+    "brand": "Purina",
+    "productName": "Fancy Feast Kitten Ocean Whitefish",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Both",
+    "race": "Bengal",
+    "productLink": "https://www.tokopedia.com/purina/fancy-feast-kitten-ocean-whitefish-makanan-anak-kucing-basah-85gr?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 23,
+    "brand": "Royal Canin",
+    "productName": "Bengal Adult",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Both",
+    "race": "Bengal",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-bengal-makanan-kucing-dewasa-dry-400gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 24,
+    "brand": "Purina",
+    "productName": "FANCY FEAST Adult Classic Savory Salmon",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Both",
+    "race": "Bengal",
+    "productLink": "https://www.tokopedia.com/purina/fancy-feast-adult-classic-savory-salmon-85gr-x-8pcs-free-pet-bowl?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 25,
+    "brand": "Royal Canin",
+    "productName": "Persian Kitten",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Persian",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-persian-makanan-anak-kucing-persia-dry-400gr?extParam=whid%3D3424731"
+  },
+  {
+    "id": 26,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Pouch Junior",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Persian",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-basah-pouch-junior-80gr-isi-6-tuna?extParam=whid%3D26751"
+  },
+  {
+    "id": 27,
+    "brand": "Royal Canin",
+    "productName": "Persian Adult",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Persian",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-persian-makanan-kucing-dewasa-persia-dry-400gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 28,
+    "brand": "Royal Canin",
+    "productName": "Persian Adult",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Persian",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-persian-makanan-kucing-dewasa-persia-wet-3x85gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 29,
+    "brand": "Royal Canin",
+    "productName": "Persian Kitten",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Persian",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-persian-makanan-anak-kucing-persia-dry-400gr?extParam=whid%3D3424731"
+  },
+  {
+    "id": 30,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Pouch Junior",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Persian",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-basah-pouch-junior-80gr-isi-6-tuna?extParam=whid%3D26751"
+  },
+  {
+    "id": 31,
+    "brand": "Royal Canin",
+    "productName": "Persian Adult",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Persian",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-persian-makanan-kucing-dewasa-persia-dry-400gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 32,
+    "brand": "Royal Canin",
+    "productName": "Persian Adult",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Persian",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-persian-makanan-kucing-dewasa-persia-wet-3x85gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 33,
+    "brand": "Royal Canin",
+    "productName": "Persian Kitten",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "Persian",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-persian-makanan-anak-kucing-persia-dry-400gr?extParam=whid%3D3424731"
+  },
+  {
+    "id": 34,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Pouch Junior",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Both",
+    "race": "Persian",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-basah-pouch-junior-80gr-isi-6-tuna?extParam=whid%3D26751"
+  },
+  {
+    "id": 35,
+    "brand": "Royal Canin",
+    "productName": "Persian Adult",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Both",
+    "race": "Persian",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-persian-makanan-kucing-dewasa-persia-dry-400gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 36,
+    "brand": "Royal Canin",
+    "productName": "Persian Adult",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Both",
+    "race": "Persian",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-persian-makanan-kucing-dewasa-persia-wet-3x85gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 37,
+    "brand": "Royal Canin",
+    "productName": "KITTEN",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Sphynx",
+    "productLink": "https://www.tokopedia.com/pet-kingdom/royal-canin-kitten-dry-makanan-anak-kucing-400-gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch%26whid%3D13651047"
+  },
+  {
+    "id": 38,
+    "brand": "Royal Canin",
+    "productName": "Kitten in Gravy",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Sphynx",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-in-gravy-makanan-anak-kucing-wet-3x85gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 39,
+    "brand": "Royal Canin",
+    "productName": "Sphynx Adult",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Sphynx",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-sphynx-makanan-kucing-dewasa-dry-2kg?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 40,
+    "brand": "BRAVERY",
+    "productName": "BRAVERY CHICKEN & CARROT",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Sphynx",
+    "productLink": "https://www.tokopedia.com/braveryofficial/bravery-wet-food-for-cats-70gr-makanan-basah-kucing-wet-food-chicken-carrot?extParam=ivf%3Dfalse%26whid%3D10937518&src=topads"
+  },
+  {
+    "id": 41,
+    "brand": "Royal Canin",
+    "productName": "KITTEN",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Sphynx",
+    "productLink": "https://www.tokopedia.com/pet-kingdom/royal-canin-kitten-dry-makanan-anak-kucing-400-gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch%26whid%3D13651047"
+  },
+  {
+    "id": 42,
+    "brand": "Royal Canin",
+    "productName": "Kitten in Gravy",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Sphynx",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-in-gravy-makanan-anak-kucing-wet-3x85gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 43,
+    "brand": "Royal Canin",
+    "productName": "Sphynx Adult",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Sphynx",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-sphynx-makanan-kucing-dewasa-dry-2kg?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 44,
+    "brand": "BRAVERY",
+    "productName": "BRAVERY CHICKEN & CARROT",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Sphynx",
+    "productLink": "https://www.tokopedia.com/braveryofficial/bravery-wet-food-for-cats-70gr-makanan-basah-kucing-wet-food-chicken-carrot?extParam=ivf%3Dfalse%26whid%3D10937518&src=topads"
+  },
+  {
+    "id": 45,
+    "brand": "Royal Canin",
+    "productName": "KITTEN",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "Sphynx",
+    "productLink": "https://www.tokopedia.com/pet-kingdom/royal-canin-kitten-dry-makanan-anak-kucing-400-gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch%26whid%3D13651047"
+  },
+  {
+    "id": 46,
+    "brand": "Royal Canin",
+    "productName": "Kitten in Gravy",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Both",
+    "race": "Sphynx",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-in-gravy-makanan-anak-kucing-wet-3x85gr?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 47,
+    "brand": "Royal Canin",
+    "productName": "Sphynx Adult",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Both",
+    "race": "Sphynx",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-sphynx-makanan-kucing-dewasa-dry-2kg?extParam=ivf%3Dfalse%26shop_tier%3D2%26src%3Dsearch"
+  },
+  {
+    "id": 48,
+    "brand": "BRAVERY",
+    "productName": "BRAVERY CHICKEN & CARROT",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Both",
+    "race": "Sphynx",
+    "productLink": "https://www.tokopedia.com/braveryofficial/bravery-wet-food-for-cats-70gr-makanan-basah-kucing-wet-food-chicken-carrot?extParam=ivf%3Dfalse%26whid%3D10937518&src=topads"
+  },
+  {
+    "id": 49,
+    "brand": "Purina",
+    "productName": "ONE Healthy Kitten Chicken",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Abyssinian",
+    "productLink": "https://www.tokopedia.com/purina/purina-one-healthy-kitten-chicken-makanan-kering-anak-kucing-380gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 50,
+    "brand": "Purina",
+    "productName": "PRO PLAN Kitten Chicken",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Abyssinian",
+    "productLink": "https://www.tokopedia.com/purina/pro-plan-cat-wet-kitten-chicken-makanan-anak-kucing-basah-85g?extParam=whid%3D13056835"
+  },
+  {
+    "id": 51,
+    "brand": "Purina",
+    "productName": "ONE Healthy Adult SalmonTuna",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Abyssinian",
+    "productLink": "https://www.tokopedia.com/purina/purina-one-healthy-adult-salmontuna-makanan-kering-kucing-dewasa-380gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 52,
+    "brand": "Purina",
+    "productName": "FANCY FEAST Adult Grilled Turkey",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Abyssinian",
+    "productLink": "https://www.tokopedia.com/purina/fancy-feast-adult-grilled-turkey-makanan-kucing-basah-85gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 53,
+    "brand": "Purina",
+    "productName": "ONE Healthy Kitten Chicken",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Abyssinian",
+    "productLink": "https://www.tokopedia.com/purina/purina-one-healthy-kitten-chicken-makanan-kering-anak-kucing-380gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 54,
+    "brand": "Purina",
+    "productName": "PRO PLAN Kitten Chicken",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Abyssinian",
+    "productLink": "https://www.tokopedia.com/purina/pro-plan-cat-wet-kitten-chicken-makanan-anak-kucing-basah-85g?extParam=whid%3D13056835"
+  },
+  {
+    "id": 55,
+    "brand": "Purina",
+    "productName": "ONE Healthy Adult SalmonTuna",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Abyssinian",
+    "productLink": "https://www.tokopedia.com/purina/purina-one-healthy-adult-salmontuna-makanan-kering-kucing-dewasa-380gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 56,
+    "brand": "Purina",
+    "productName": "FANCY FEAST Adult Grilled Turkey",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Abyssinian",
+    "productLink": "https://www.tokopedia.com/purina/fancy-feast-adult-grilled-turkey-makanan-kucing-basah-85gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 57,
+    "brand": "Purina",
+    "productName": "ONE Healthy Kitten Chicken",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "Abyssinian",
+    "productLink": "https://www.tokopedia.com/purina/purina-one-healthy-kitten-chicken-makanan-kering-anak-kucing-380gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 58,
+    "brand": "Purina",
+    "productName": "PRO PLAN Kitten Chicken",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Both",
+    "race": "Abyssinian",
+    "productLink": "https://www.tokopedia.com/purina/pro-plan-cat-wet-kitten-chicken-makanan-anak-kucing-basah-85g?extParam=whid%3D13056835"
+  },
+  {
+    "id": 59,
+    "brand": "Purina",
+    "productName": "ONE Healthy Adult SalmonTuna",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Both",
+    "race": "Abyssinian",
+    "productLink": "https://www.tokopedia.com/purina/purina-one-healthy-adult-salmontuna-makanan-kering-kucing-dewasa-380gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 60,
+    "brand": "Purina",
+    "productName": "FANCY FEAST Adult Grilled Turkey",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Both",
+    "race": "Abyssinian",
+    "productLink": "https://www.tokopedia.com/purina/fancy-feast-adult-grilled-turkey-makanan-kucing-basah-85gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 61,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Junior Ocean Fish",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-kering-junior-450gr-ocean-fish?extParam=whid%3D26751"
+  },
+  {
+    "id": 62,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Pouch Multi Variant",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-anak-kucing-basah-pouch-multi-variant-80g-isi-6?extParam=whid%3D26751"
+  },
+  {
+    "id": 63,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS 1+Years Mackerel",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-kering-480gr-mackerel?extParam=whid%3D26751"
+  },
+  {
+    "id": 64,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Pouch Adult",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-basah-pouch-multi-variant-80g-isi-6?extParam=whid%3D26751"
+  },
+  {
+    "id": 65,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Junior Ocean Fish",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-kering-junior-450gr-ocean-fish?extParam=whid%3D26751"
+  },
+  {
+    "id": 66,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Pouch Multi Variant",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-anak-kucing-basah-pouch-multi-variant-80g-isi-6?extParam=whid%3D26751"
+  },
+  {
+    "id": 67,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS 1+Years Mackerel",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-kering-480gr-mackerel?extParam=whid%3D26751"
+  },
+  {
+    "id": 68,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Pouch Adult",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-basah-pouch-multi-variant-80g-isi-6?extParam=whid%3D26751"
+  },
+  {
+    "id": 69,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Junior Ocean Fish",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-kering-junior-450gr-ocean-fish?extParam=whid%3D26751"
+  },
+  {
+    "id": 70,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Pouch Multi Variant",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Both",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-anak-kucing-basah-pouch-multi-variant-80g-isi-6?extParam=whid%3D26751"
+  },
+  {
+    "id": 71,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS 1+Years Mackerel",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Both",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-kering-480gr-mackerel?extParam=whid%3D26751"
+  },
+  {
+    "id": 72,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Pouch Adult",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Both",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-basah-pouch-multi-variant-80g-isi-6?extParam=whid%3D26751"
+  },
+  {
+    "id": 73,
+    "brand": "Coucou",
+    "productName": "All Stages Kitten Dry",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Bombay",
+    "productLink": "https://www.tokopedia.com/gudang-ampera/makanan-kucing-coucou-all-stages-kitten-dry-cat-food-1-5kg-a-chicken-beef-c1b4a?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 74,
+    "brand": "WHISKAS",
+    "productName": "Pouch Multi Variant",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Bombay",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-anak-kucing-basah-pouch-multi-variant-80g-isi-6?extParam=whid%3D26751"
+  },
+  {
+    "id": 75,
+    "brand": "Purina",
+    "productName": "FRISKIES ADULT INDOOR DELIGHTS ",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Bombay",
+    "productLink": "https://www.tokopedia.com/chikopetshops/friskies-adult-indoor-delights-cat-food-friskis-freshpack-1-1-kg?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 76,
+    "brand": "Purina",
+    "productName": "FANCY FEAST Adult Grilled Turkey",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Bombay",
+    "productLink": "https://www.tokopedia.com/purina/fancy-feast-adult-grilled-turkey-makanan-kucing-basah-85gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 77,
+    "brand": "Purina",
+    "productName": "ONE Healthy Kitten Chicken",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Bombay",
+    "productLink": "https://www.tokopedia.com/purina/purina-one-healthy-kitten-chicken-makanan-kering-anak-kucing-380gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 78,
+    "brand": "Purina",
+    "productName": "PRO PLAN Kitten Chicken",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Bombay",
+    "productLink": "https://www.tokopedia.com/purina/pro-plan-cat-wet-kitten-chicken-makanan-anak-kucing-basah-85g?extParam=whid%3D13056835"
+  },
+  {
+    "id": 79,
+    "brand": "Royal Canin ",
+    "productName": "Adult cat regular fit 32 outdoor",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Bombay",
+    "productLink": "https://www.tokopedia.com/littlepebble/royal-canin-adult-cat-regular-fit-32-makanan-kering-kucing-outdoor-2kg?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 80,
+    "brand": "Life Cat",
+    "productName": "Life Cat Kaleng Adult",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Bombay",
+    "productLink": "https://www.tokopedia.com/makmurjaya-ps/life-cat-kaleng-adult-kitten-400gr-wet-food-makanan-kucing-basah-adult-ch-salmon?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 81,
+    "brand": "ME-O",
+    "productName": "Cat Choize Plus Kitten .",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "Bombay",
+    "productLink": "https://www.tokopedia.com/officialstoreme-o/cat-choize-plus-dry-kitten-food-tuna-salmon-450g?extParam=whid%3D10528506"
+  },
+  {
+    "id": 82,
+    "brand": "ME-O",
+    "productName": "Meo Kitten Ocean Fish",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Both",
+    "race": "Bombay",
+    "productLink": "https://www.tokopedia.com/coolpetshopjr/meo-kitten-ocean-fish-1-kg-repack"
+  },
+  {
+    "id": 83,
+    "brand": "ME-O",
+    "productName": "Cat Choize Plus Adult ",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Both",
+    "race": "Bombay",
+    "productLink": "https://www.tokopedia.com/officialstoreme-o/cat-choize-plus-dry-adult-cat-food-tuna-and-salmon-500g?extParam=whid%3D10528506"
+  },
+  {
+    "id": 84,
+    "brand": "ME-O",
+    "productName": "Cat Choize Pouch",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Both",
+    "race": "Bombay",
+    "productLink": "https://www.tokopedia.com/officialstoreme-o/cat-choize-pouch-cat-food-tuna-75g-isi-3-pouch?extParam=whid%3D10528506"
+  },
+  {
+    "id": 85,
+    "brand": "Royal Canin",
+    "productName": "Kitten British Shorthair Dry",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "British Shorthair",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-british-shorthair-makanan-anak-kucing-dry-400gr?extParam=whid%3D3424731"
+  },
+  {
+    "id": 86,
+    "brand": "WHISKAS",
+    "productName": "WHISKAS Pouch Junior Tuna",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "British Shorthair",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-basah-pouch-80gr-isi-6-tuna"
+  },
+  {
+    "id": 87,
+    "brand": "Royal Canin",
+    "productName": "Adult British Shorthair Dry",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "British Shorthair",
+    "productLink": "https://www.tokopedia.com/sukapetstangsel/royal-canin-adult-british-shorthair-makanan-kucing-dewasa-dry-2kg?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 88,
+    "brand": "Royal Canin",
+    "productName": "Adult British Shorthair Wet",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "British Shorthair",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-british-shorthair-makanan-kucing-dewasa-wet-3x85gr?extParam=whid%3D3424731"
+  },
+  {
+    "id": 89,
+    "brand": "Royal Canin",
+    "productName": "Kitten British Shorthair Dry",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "British Shorthair",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-british-shorthair-makanan-anak-kucing-dry-400gr?extParam=whid%3D3424731"
+  },
+  {
+    "id": 90,
+    "brand": "ME-O",
+    "productName": "ME-O KITTEN TUNA",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "British Shorthair",
+    "productLink": "https://www.tokopedia.com/golden-cat/me-o-kitten-tuna-400grkl-wet-food-kucing?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 91,
+    "brand": "Royal Canin",
+    "productName": "Adult British Shorthair Dry",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "British Shorthair",
+    "productLink": "https://www.tokopedia.com/sukapetstangsel/royal-canin-adult-british-shorthair-makanan-kucing-dewasa-dry-2kg?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 92,
+    "brand": "Royal Canin",
+    "productName": "Adult British Shorthair Wet",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "British Shorthair",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-british-shorthair-makanan-kucing-dewasa-wet-3x85gr?extParam=whid%3D3424731"
+  },
+  {
+    "id": 93,
+    "brand": "Royal Canin",
+    "productName": "Kitten British Shorthair Dry",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "British Shorthair",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-british-shorthair-makanan-anak-kucing-dry-400gr?extParam=whid%3D3424731"
+  },
+  {
+    "id": 94,
+    "brand": "Purina",
+    "productName": " Pro Plan Kitten Salmon",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Both",
+    "race": "British Shorthair",
+    "productLink": "https://www.tokopedia.com/tisya-petshop/proplan-pro-plan-kitten-salmon-in-gravy-85gr-wet-food-sachet-pouch-85?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 95,
+    "brand": "Royal Canin",
+    "productName": "Adult British Shorthair Dry",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Both",
+    "race": "British Shorthair",
+    "productLink": "https://www.tokopedia.com/sukapetstangsel/royal-canin-adult-british-shorthair-makanan-kucing-dewasa-dry-2kg?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 96,
+    "brand": "Royal Canin",
+    "productName": "Adult British Shorthair Wet",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Both",
+    "race": "British Shorthair",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-adult-british-shorthair-makanan-kucing-dewasa-wet-3x85gr?extParam=whid%3D3424731"
+  },
+  {
+    "id": 97,
+    "brand": "WHISKAS",
+    "productName": "Junior Ocean Fish",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Egyptian Mau",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-kering-junior-450gr-ocean-fish?extParam=whid%3D26751"
+  },
+  {
+    "id": 98,
+    "brand": "WHISKAS",
+    "productName": "Pouch Multi Variant",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Egyptian Mau",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-anak-kucing-basah-pouch-multi-variant-80g-isi-6?extParam=whid%3D26751"
+  },
+  {
+    "id": 99,
+    "brand": "Purina",
+    "productName": "Proplan indoor Hairball Control",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Egyptian Mau",
+    "productLink": "https://www.tokopedia.com/duniahewan/pro-plan-proplan-indoor-hairball-control-cat-3kg-3-kg?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 100,
+    "brand": "Natures Protection",
+    "productName": "cat veal indoor (wet)",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Egyptian Mau",
+    "productLink": "https://www.tokopedia.com/fjpetshop/natures-protection-100-gr-cat-veal-indoor-wet?src=topads"
+  },
+  {
+    "id": 101,
+    "brand": "Life Cat",
+    "productName": "Life Cat Kaleng Adult",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Egyptian Mau",
+    "productLink": "https://www.tokopedia.com/makmurjaya-ps/life-cat-kaleng-adult-kitten-400gr-wet-food-makanan-kucing-basah-adult-ch-salmon?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 102,
+    "brand": "Purina",
+    "productName": "Felix Cat Wet pouch Kitten Adult",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Egyptian Mau",
+    "productLink": "https://www.tokopedia.com/juarapetstore/felix-cat-food-makanan-basah-kucing-wet-pouch-kitten-adult-85-gram-mackarel?src=topads"
+  },
+  {
+    "id": 103,
+    "brand": "Royal Canin ",
+    "productName": "Adult cat regular fit 32 outdoor",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Egyptian Mau",
+    "productLink": "https://www.tokopedia.com/littlepebble/royal-canin-adult-cat-regular-fit-32-makanan-kering-kucing-outdoor-2kg?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 104,
+    "brand": "Purina",
+    "productName": "Felix Cat Wet pouch Kitten Adult",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Egyptian Mau",
+    "productLink": "https://www.tokopedia.com/juarapetstore/felix-cat-food-makanan-basah-kucing-wet-pouch-kitten-adult-85-gram-mackarel?src=topads"
+  },
+  {
+    "id": 105,
+    "brand": "Coucou",
+    "productName": "Super Premium Cat Food for Kitten",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "Egyptian Mau",
+    "productLink": "https://www.tokopedia.com/delapanps/coucou-super-premium-cat-food-for-kitten-high-quality-protein-1-5-kg-tuna?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 106,
+    "brand": "Coucou",
+    "productName": "Pouch Cat Food Kitten Tuna",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Both",
+    "race": "Egyptian Mau",
+    "productLink": "https://www.tokopedia.com/sbypetcenter/coucou-pouch-cat-food-kitten-makanan-kucing-basah-85-gram-wet-food-cat-cou-tuna?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 107,
+    "brand": "Coucou",
+    "productName": "All Stages Dry Premium",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Both",
+    "race": "Egyptian Mau",
+    "productLink": "https://www.tokopedia.com/rickspetshop/makanan-kucing-coucou-adult-kitten-cat-food-premium-beef-chicken"
+  },
+  {
+    "id": 108,
+    "brand": "Coucou",
+    "productName": "Halcyon Wet Cat Food Grain",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Both",
+    "race": "Egyptian Mau",
+    "productLink": "https://www.tokopedia.com/heliospet/coucou-halcyon-wet-cat-food-grain-free-can-kaleng-400gr-adult-chicken?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 109,
+    "brand": "EQUILIBRIO",
+    "productName": "Kitten Filhotes Indoor",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Ragdoll",
+    "productLink": "https://www.tokopedia.com/savoypetshop/equilibrio-kitten-1-5kg-filhotes-indoor-packing-random?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 110,
+    "brand": "Natures Protection",
+    "productName": "Kitten oceanfish chicken",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Ragdoll",
+    "productLink": "https://www.tokopedia.com/fjpetshop/natures-protection-100-gr-kitten-oceanfish-chicken-wet?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 111,
+    "brand": "Royal Canin ",
+    "productName": "Indoor Long Hair",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Ragdoll",
+    "productLink": "https://www.tokopedia.com/pawsnplay/royal-canin-indoor-long-hair-400gr-2kg-4kg-400gr?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 112,
+    "brand": "WHISKAS",
+    "productName": "Sheba Pouch Adults",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Ragdoll",
+    "productLink": "https://www.tokopedia.com/whiskas/sheba-pouch-rasa-tuna-5pcs-crab-stick-5pcs-salmon-5pcs-70gr"
+  },
+  {
+    "id": 113,
+    "brand": "Royal Canin ",
+    "productName": "Kitten",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Ragdoll",
+    "productLink": "https://www.tokopedia.com/sukapets/royal-canin-kitten-makanan-anak-kucing-400gr?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 114,
+    "brand": "WHISKAS",
+    "productName": "Sheba Pouch Kitten",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Ragdoll",
+    "productLink": "https://www.tokopedia.com/sukapetsdepok/sheba-pouch-kitten-chicken-makanan-anak-kucing-basah-wet-food-70gr?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 115,
+    "brand": "Royal Canin ",
+    "productName": "Adult cat regular fit 32 outdoor",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Ragdoll",
+    "productLink": "https://www.tokopedia.com/littlepebble/royal-canin-adult-cat-regular-fit-32-makanan-kering-kucing-outdoor-2kg?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 116,
+    "brand": "Purina",
+    "productName": "FANCY FEAST Adult Grilled Turkey",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Ragdoll",
+    "productLink": "https://www.tokopedia.com/purina/fancy-feast-adult-grilled-turkey-makanan-kucing-basah-85gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 117,
+    "brand": "Royal Canin ",
+    "productName": "Kitten",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "Ragdoll",
+    "productLink": "https://www.tokopedia.com/sukapets/royal-canin-kitten-makanan-anak-kucing-400gr?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 118,
+    "brand": "Royal Canin ",
+    "productName": "Kitten in Garvy",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Both",
+    "race": "Ragdoll",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-in-gravy-makanan-anak-kucing-wet-3x85gr"
+  },
+  {
+    "id": 119,
+    "brand": "Purina",
+    "productName": "ONE Healthy Adult SalmonTuna",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Both",
+    "race": "Ragdoll",
+    "productLink": "https://www.tokopedia.com/purina/purina-one-healthy-adult-salmontuna-makanan-kering-kucing-dewasa-380gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 120,
+    "brand": "Purina",
+    "productName": "FANCY FEAST Adult Grilled Turkey",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Both",
+    "race": "Ragdoll",
+    "productLink": "https://www.tokopedia.com/purina/fancy-feast-adult-grilled-turkey-makanan-kucing-basah-85gr?extParam=whid%3D13056835"
+  },
+  {
+    "id": 121,
+    "brand": "EQUILIBRIO",
+    "productName": "Kitten Indoor",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Russian Blue",
+    "productLink": "https://www.tokopedia.com/miapetshopsurabaya/dry-cat-food-equilibrio-kitten-indoor-repack-300-gram?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 122,
+    "brand": "Natures Protection",
+    "productName": "Turkey Salmon Kitten Wet",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Russian Blue",
+    "productLink": "https://www.tokopedia.com/sunnypaws/natures-protection-turkey-salmon-kitten-wet-cat-food-nature-400-gr?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 123,
+    "brand": "WHISKAS",
+    "productName": "Adult Cat Indoor",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Russian Blue",
+    "productLink": "https://www.tokopedia.com/sukapetstangsel/whiskas-adult-cat-indoor-makanan-kucing-kering-1-1kg?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 124,
+    "brand": "WHISKAS",
+    "productName": "Sheba Pouch Adults",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Russian Blue",
+    "productLink": "https://www.tokopedia.com/whiskas/sheba-pouch-rasa-tuna-5pcs-crab-stick-5pcs-salmon-5pcs-70gr"
+  },
+  {
+    "id": 125,
+    "brand": "Purina",
+    "productName": "ONE Healthy Kitten Chicken",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Russian Blue",
+    "productLink": "https://www.tokopedia.com/purina/purina-one-healthy-kitten-chicken-makanan-kering-anak-kucing-380gr?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 126,
+    "brand": "Purina",
+    "productName": "FANCY FEAST classic ocean",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Outdoor",
+    "race": "Russian Blue",
+    "productLink": "https://www.tokopedia.com/zonafauna/makanan-kucing-basah-wet-food-fancy-feast-85g-85-g-85-gr-85gr-classic-ocean?src=topads"
+  },
+  {
+    "id": 127,
+    "brand": "Royal Canin ",
+    "productName": "Adult cat regular fit 32 outdoor",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Russian Blue",
+    "productLink": "https://www.tokopedia.com/littlepebble/royal-canin-adult-cat-regular-fit-32-makanan-kering-kucing-outdoor-2kg?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 128,
+    "brand": "Life Cat",
+    "productName": "Life Cat Kaleng Adult",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Russian Blue",
+    "productLink": "https://www.tokopedia.com/makmurjaya-ps/life-cat-kaleng-adult-kitten-400gr-wet-food-makanan-kucing-basah-adult-ch-salmon?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 129,
+    "brand": "Royal Canin ",
+    "productName": "Kitten",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "Russian Blue",
+    "productLink": "https://www.tokopedia.com/sukapets/royal-canin-kitten-makanan-anak-kucing-400gr?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 130,
+    "brand": "Royal Canin ",
+    "productName": "Kitten in Garvy",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Both",
+    "race": "Russian Blue",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-in-gravy-makanan-anak-kucing-wet-3x85gr"
+  },
+  {
+    "id": 131,
+    "brand": "Coucou",
+    "productName": "All Stages Kitten Dry",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "Russian Blue",
+    "productLink": "https://www.tokopedia.com/gudang-ampera/makanan-kucing-coucou-all-stages-kitten-dry-cat-food-1-5kg-a-chicken-beef-c1b4a?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 132,
+    "brand": "Coucou",
+    "productName": "Halcyon Wet Cat Food Grain",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Both",
+    "race": "Russian Blue",
+    "productLink": "https://www.tokopedia.com/heliospet/coucou-halcyon-wet-cat-food-grain-free-can-kaleng-400gr-adult-chicken?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 133,
+    "brand": "EQUILIBRIO",
+    "productName": "Kitten Indoor",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Siamese",
+    "productLink": "https://www.tokopedia.com/miapetshopsurabaya/dry-cat-food-equilibrio-kitten-indoor-repack-300-gram?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 134,
+    "brand": "Natures Protection",
+    "productName": "Turkey Salmon Kitten Wet",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Siamese",
+    "productLink": "https://www.tokopedia.com/sunnypaws/natures-protection-turkey-salmon-kitten-wet-cat-food-nature-400-gr?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 135,
+    "brand": "Royal Canin ",
+    "productName": "Royal Canin Indoor",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Indoor",
+    "race": "Siamese",
+    "productLink": "https://www.tokopedia.com/bratasenastore/royal-canin-indoor-7-1-5kg-freshpack?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 136,
+    "brand": "WHISKAS",
+    "productName": "Pouch Multi Variant",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Indoor",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-anak-kucing-basah-pouch-multi-variant-80g-isi-6?extParam=whid%3D26751"
+  },
+  {
+    "id": 137,
+    "brand": "WHISKAS",
+    "productName": "1+Years Mackerel",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-kering-480gr-mackerel?extParam=whid%3D26751"
+  },
+  {
+    "id": 138,
+    "brand": "WHISKAS",
+    "productName": "Pouch Adult",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Birman",
+    "productLink": "https://www.tokopedia.com/whiskas/whiskas-makanan-kucing-basah-pouch-multi-variant-80g-isi-6?extParam=whid%3D26751"
+  },
+  {
+    "id": 139,
+    "brand": "Royal Canin ",
+    "productName": "Adult cat regular fit 32 outdoor",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Siamese",
+    "productLink": "https://www.tokopedia.com/littlepebble/royal-canin-adult-cat-regular-fit-32-makanan-kering-kucing-outdoor-2kg?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 140,
+    "brand": "Life Cat",
+    "productName": "Life Cat Kaleng Adult",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Outdoor",
+    "race": "Siamese",
+    "productLink": "https://www.tokopedia.com/makmurjaya-ps/life-cat-kaleng-adult-kitten-400gr-wet-food-makanan-kucing-basah-adult-ch-salmon?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 141,
+    "brand": "Royal Canin ",
+    "productName": "Kitten",
+    "foodType": "Dry",
+    "age": 1,
+    "activity": "Both",
+    "race": "Siamese",
+    "productLink": "https://www.tokopedia.com/sukapets/royal-canin-kitten-makanan-anak-kucing-400gr?extParam=ivf%3Dfalse&src=topads"
+  },
+  {
+    "id": 142,
+    "brand": "Royal Canin ",
+    "productName": "Kitten in Garvy",
+    "foodType": "Wet",
+    "age": 1,
+    "activity": "Both",
+    "race": "Siamese",
+    "productLink": "https://www.tokopedia.com/royalcaninid/royal-canin-kitten-in-gravy-makanan-anak-kucing-wet-3x85gr"
+  },
+  {
+    "id": 143,
+    "brand": "CATSRANG",
+    "productName": "Indoor Outdoor All Stages",
+    "foodType": "Dry",
+    "age": 2,
+    "activity": "Both",
+    "race": "Siamese",
+    "productLink": "https://www.tokopedia.com/oripetshop/catsrang-indoor-outdoor-all-stages-3-kg-cat-food-catsrang-kitten-adult?extParam=ivf%3Dfalse%26src%3Dsearch"
+  },
+  {
+    "id": 144,
+    "brand": "Coucou",
+    "productName": "Halcyon Wet Cat Food Grain",
+    "foodType": "Wet",
+    "age": 2,
+    "activity": "Both",
+    "race": "Siamese",
+    "productLink": "https://www.tokopedia.com/heliospet/coucou-halcyon-wet-cat-food-grain-free-can-kaleng-400gr-adult-chicken?extParam=ivf%3Dfalse&src=topads"
+  }
+]

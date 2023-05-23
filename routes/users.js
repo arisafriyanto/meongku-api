@@ -89,4 +89,34 @@ const editProfileRoute = {
   },
 };
 
-module.exports = [userDetailRoute, editProfileRoute];
+const editPasswordRoute = {
+  method: "PUT",
+  path: "/users/{uid}/edit-password",
+  handler: async (request, h) => {
+  const {uid} = request.params;
+  const {user_uid, email} = request.auth.credentials;
+    try {
+      const user = await editPassword(email, currentPassword, newPassword);
+      console.log(request.auth)
+      return h.response({
+        status: "success",
+        message: "Edit password berhasil"
+      }).code(200)
+    } catch (error) {
+      return Boom.badRequest("Error edit password");
+    }
+  },
+  options: {
+    validate: {
+      payload: Joi.object({
+        currentPassword: Joi.string().min(8).required(),
+        newPassword: Joi.string().min(8).required(),
+      }),
+      params: Joi.object({
+        uid: Joi.string().required(),
+      })
+    },
+  },
+};
+
+module.exports = [userDetailRoute, editProfileRoute, editPasswordRoute];

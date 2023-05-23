@@ -70,4 +70,23 @@ const editProfile = async (
   }
 };
 
-module.exports = { getUserData, editProfile };
+const editPassword = async(email, currentPassword, newPassword) => {
+  try {
+    const { result } = await signInWithEmailAndPassword(
+      auth,
+      email,
+      currentPassword
+      );
+  
+      if (result.uid === uid) {
+        if (newPassword) await updatePassword(result, newPassword);
+          return true;;
+      } else {
+        return false;
+      }
+  } catch(error) {
+    throw error;
+  }
+};
+
+module.exports = { getUserData, editProfile, editPassword };

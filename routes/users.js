@@ -1,5 +1,9 @@
 const Boom = require("@hapi/boom");
-const { getUserData, editProfile } = require("./../controllers/users");
+const {
+  getUserData,
+  editProfile,
+  editPassword,
+} = require("./../controllers/users");
 const Joi = require("joi");
 
 const userDetailRoute = {
@@ -44,19 +48,10 @@ const editProfileRoute = {
   path: "/users/{uid}",
   handler: async (request, h) => {
     const { uid } = request.params;
-    const { name, email, password, phone, currentEmail, currentPassword } =
-      request.payload;
+    const { name, phone } = request.payload;
 
     try {
-      const result = await editProfile(
-        uid,
-        name,
-        email,
-        password,
-        phone,
-        currentEmail,
-        currentPassword
-      );
+      const result = await editProfile(uid, name, phone);
 
       if (result) {
         return h
@@ -66,7 +61,7 @@ const editProfileRoute = {
           })
           .code(200);
       } else {
-        return Boom.forbidden("User not authorized to edit this profile");
+        return Boom.badRequest("Error updating profile");
       }
     } catch (error) {
       return Boom.badRequest("Error updating profile");
@@ -76,16 +71,13 @@ const editProfileRoute = {
     validate: {
       payload: Joi.object({
         name: Joi.string().min(3).optional(),
-        email: Joi.string().email().optional(),
-        password: Joi.string().min(8).optional(),
         phone: Joi.string().min(8).optional(),
-        currentEmail: Joi.string().email().required(),
-        currentPassword: Joi.string().required(),
       }),
       params: Joi.object({
         uid: Joi.string().required(),
       }),
     },
+    auth: "firebase",
   },
 };
 
@@ -93,15 +85,22 @@ const editPasswordRoute = {
   method: "PUT",
   path: "/users/{uid}/edit-password",
   handler: async (request, h) => {
-  const {uid} = request.params;
-  const {user_uid, email} = request.auth.credentials;
+    const { uid } = request.params;
+    const { email } = request.auth.credentials;
+    const { currentPassword, password } = request.payload;
     try {
-      const user = await editPassword(email, currentPassword, newPassword);
-      console.log(request.auth)
-      return h.response({
-        status: "success",
-        message: "Edit password berhasil"
-      }).code(200)
+      const result = await editPassword(uid, email, currentPassword, password);
+
+      if (result) {
+        return h
+          .response({
+            status: "success",
+            message: "Edit password berhasil",
+          })
+          .code(200);
+      } else {
+        return Boom.badRequest("User not authorize");
+      }
     } catch (error) {
       return Boom.badRequest("Error edit password");
     }
@@ -110,12 +109,13 @@ const editPasswordRoute = {
     validate: {
       payload: Joi.object({
         currentPassword: Joi.string().min(8).required(),
-        newPassword: Joi.string().min(8).required(),
+        password: Joi.string().min(8).required(),
       }),
       params: Joi.object({
         uid: Joi.string().required(),
-      })
+      }),
     },
+    auth: "firebase",
   },
 };
 

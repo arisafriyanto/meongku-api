@@ -13,14 +13,14 @@ const register = {
     const { name, email, password, phone } = request.payload;
     try {
       const user = await registerUser(name, email, password, phone);
-      const idToken = user._tokenResponse.idToken;
-      console.log(idToken);
+      // const idToken = user._tokenResponse.idToken;
+      // console.log(idToken);
       return h
         .response({
           status: "success",
           message: "User registered",
           uid: user.user.uid,
-          idToken: idToken,
+          // idToken: idToken,
         })
         .code(201);
     } catch (error) {

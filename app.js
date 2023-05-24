@@ -4,6 +4,7 @@ const auth = require("./routes/auth");
 const home = require("./routes/home");
 const users = require("./routes/users");
 const articles = require("./routes/articles");
+const cats = require("./routes/cats");
 const Boom = require("@hapi/boom");
 
 const init = async () => {
@@ -50,6 +51,7 @@ const init = async () => {
   server.route(home);
   server.route(articles);
   server.route(users);
+  server.route(cats);
 
   await server.start();
   console.log("Server running on %s", server.info.uri);

@@ -15,7 +15,7 @@ const userDetailRoute = {
 
     try {
       if (user_uid !== uid) {
-        return Boom.badRequest("Token not valid to user");
+        return Boom.badRequest("Invalid id token for user");
       }
 
       const data = await getUserData(uid);
@@ -23,22 +23,29 @@ const userDetailRoute = {
       if (data) {
         return h
           .response({
-            status: "success",
-            message: "User data found",
-            data: {
+            statusCode: 200,
+            status: "Success",
+            message: "User found successfully",
+            user: {
               name: data.name,
               email: data.email,
+              phone: data.phone,
             },
           })
           .code(200);
       } else {
-        return Boom.notFound("No user data found");
+        return Boom.notFound("User not found");
       }
     } catch (error) {
       return Boom.badRequest(error.message);
     }
   },
   options: {
+    validate: {
+      params: Joi.object({
+        uid: Joi.string().required(),
+      }),
+    },
     auth: "firebase",
   },
 };
@@ -56,12 +63,13 @@ const editProfileRoute = {
       if (result) {
         return h
           .response({
-            status: "success",
-            message: "Profile update successfully",
+            statusCode: 200,
+            status: "Success",
+            message: "Edit user profile successfully",
           })
           .code(200);
       } else {
-        return Boom.badRequest("Error updating profile");
+        return Boom.badRequest("Edit user profile fail");
       }
     } catch (error) {
       return Boom.badRequest("Error updating profile");
@@ -94,15 +102,16 @@ const editPasswordRoute = {
       if (result) {
         return h
           .response({
-            status: "success",
-            message: "Edit password berhasil",
+            statusCode: 200,
+            status: "Success",
+            message: "Edit user password successfully",
           })
           .code(200);
       } else {
-        return Boom.badRequest("User not authorize");
+        return Boom.unauthorized("User not authorized");
       }
     } catch (error) {
-      return Boom.badRequest("Error edit password");
+      return Boom.badRequest("Error updating password");
     }
   },
   options: {

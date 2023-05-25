@@ -5,21 +5,21 @@ const getAllArticle = async () => {
   try {
     const querySnap = await getDocs(collection(db, "articles"));
     const articles = [];
+
     querySnap.forEach((doc) => {
       const id = doc.id;
       const data = doc.data();
 
-      const merge = {
+      const mergeField = {
         id,
         ...data,
       };
 
-      articles.push(merge);
+      articles.push(mergeField);
     });
 
     return articles;
   } catch (error) {
-    console.log(error);
     throw error;
   }
 };
@@ -33,12 +33,12 @@ const getArticleById = async (id) => {
       const id = docSnap.id;
       const data = docSnap.data();
 
-      const merge = {
+      const mergeField = {
         id,
         ...data,
       };
 
-      return merge;
+      return mergeField;
     } else {
       return null;
     }

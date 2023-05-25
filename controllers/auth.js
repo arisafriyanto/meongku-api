@@ -23,7 +23,7 @@ const registerUser = async (name, email, password, phone) => {
       phone,
     });
 
-    return userCredential;
+    return user;
   } catch (error) {
     // console.log("Error registering user:", error);
     if (error.code === "auth/email-already-in-use") {
@@ -43,7 +43,7 @@ const loginUser = async (email, password) => {
 
     return user;
   } catch (error) {
-    throw new Error("Email or Password wrong");
+    throw new Error("Email or Password is incorrect");
   }
 };
 

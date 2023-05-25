@@ -6,25 +6,23 @@ const {
 } = require("./../controllers/auth");
 const Boom = require("@hapi/boom");
 
-const register = {
+const registerRoute = {
   method: "POST",
   path: "/register",
   handler: async (request, h) => {
     const { name, email, password, phone } = request.payload;
+
     try {
       const user = await registerUser(name, email, password, phone);
-      // const idToken = user._tokenResponse.idToken;
-      // console.log(idToken);
+
       return h
         .response({
-          status: "success",
-          message: "User registered",
-          uid: user.user.uid,
-          // idToken: idToken,
+          statusCode: 201,
+          status: "Success",
+          message: "Register successfully",
         })
         .code(201);
     } catch (error) {
-      // console.log("Error registering user", error);
       return Boom.badRequest(error.message);
     }
   },
@@ -52,8 +50,9 @@ const loginRoute = {
 
       return h
         .response({
-          status: "success",
-          message: "Login success",
+          statusCode: 200,
+          status: "Success",
+          message: "Login successfully",
           uid: userCredential.user.uid,
           idToken: idToken,
         })
@@ -80,11 +79,11 @@ const logoutRoute = {
       await logoutUser();
 
       return h.response({
-        status: "success",
-        message: "User logged out successfully",
+        statusCode: 200,
+        status: "Success",
+        message: "Logout successfully",
       });
     } catch (error) {
-      console.log(error.message);
       return Boom.badRequest("Error logging out user");
     }
   },
@@ -93,4 +92,4 @@ const logoutRoute = {
   },
 };
 
-module.exports = [register, loginRoute, logoutRoute];
+module.exports = [registerRoute, loginRoute, logoutRoute];

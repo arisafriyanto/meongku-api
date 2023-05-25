@@ -23,13 +23,16 @@ const catFoodRecsRoute = {
       );
 
       if (catFoodRec.length !== 0) {
-        return h.response({
-          status: "success",
-          message: "data cat food recommendations",
-          data: catFoodRec[0],
-        });
+        return h
+          .response({
+            statusCode: 200,
+            status: "Success",
+            message: "Cat food product recommendations available",
+            data: catFoodRec[0],
+          })
+          .code(200);
       } else {
-        return Boom.badRequest("Cat food tidak tersedia");
+        return Boom.notFound("Cat food product recommendations not available");
       }
     } catch (error) {
       return Boom.badRequest(error.message);
@@ -57,16 +60,19 @@ const catsRoute = {
       const cats = await getAllCat();
 
       if (cats.length !== 0) {
-        return h.response({
-          status: "success",
-          message: "data kucing tersedia",
-          cats: cats,
-        });
+        return h
+          .response({
+            statusCode: 200,
+            status: "Success",
+            message: "All Cat data is available",
+            cats: cats,
+          })
+          .code(200);
       } else {
-        return Boom.notFound("data kucing tidak tersedia");
+        return Boom.notFound("All Cat data not available");
       }
     } catch (error) {
-      return Boom.notFound("data kucing tidak tersedia");
+      return Boom.notFound("All Cat data not available");
     }
   },
   options: {
@@ -84,16 +90,19 @@ const catByIdRoute = {
       const cat = await getCatById(id);
 
       if (cat.length !== 0) {
-        return h.response({
-          status: "success",
-          message: "kucing tersedia",
-          cat: cat,
-        });
+        return h
+          .response({
+            statusCode: 200,
+            status: "Success",
+            message: "Cat data is available",
+            cat: cat,
+          })
+          .code(200);
       } else {
-        return Boom.notFound("kucing tidak tersedia");
+        return Boom.notFound("Cat data is not available");
       }
     } catch (error) {
-      return Boom.notFound("kucing tidak tersedia");
+      return Boom.notFound("Cat data is not available");
     }
   },
   options: {

@@ -22,7 +22,7 @@ const addCatFoodRecs = async (
 
     for (let i = 0; i < jsonCatFoodRecs.length; i++) {
       const item = jsonCatFoodRecs[i];
-      console.log(item);
+      // console.log(item);
 
       const race = item.race;
       if (race == raceInput) {
@@ -62,13 +62,13 @@ const addCatFoodRecs = async (
 const getAllCat = async () => {
   try {
     const catData = await [];
+
     for (let i = 0; i < jsonCats.length; i++) {
       const cat = jsonCats[i];
 
       catData.push(cat);
     }
 
-    // console.log(catData);
     return catData;
   } catch (error) {
     throw error;
@@ -79,7 +79,7 @@ const getCatById = async (id) => {
   try {
     const catData = await jsonCats.find((cat) => cat.id === id);
 
-    console.log(catData);
+    // console.log(catData);
     return catData;
   } catch (error) {
     throw error;

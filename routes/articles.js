@@ -1,5 +1,6 @@
 const Boom = require("@hapi/boom");
 const { getAllArticle, getArticleById } = require("../controllers/articles");
+const Joi = require("joi");
 
 const articleGetAllRoute = {
   method: "GET",
@@ -8,14 +9,17 @@ const articleGetAllRoute = {
     try {
       const articles = await getAllArticle();
 
-      if (articles) {
-        return h.response({
-          status: "success",
-          message: "Semua artikel tersedia",
-          articles: articles,
-        });
+      if (articles.length !== 0) {
+        return h
+          .response({
+            statusCode: 200,
+            status: "Success",
+            message: "All articles are available",
+            articles: articles,
+          })
+          .code(200);
       } else {
-        return Boom.notFound("Artikel tidak ditemukan");
+        return Boom.notFound("Article not found");
       }
     } catch (error) {
       return Boom.notFound(error.message);
@@ -35,19 +39,27 @@ const articleDetailRoute = {
       const article = await getArticleById(id);
 
       if (article) {
-        return h.response({
-          status: "success",
-          message: "Artikel ditemukan",
-          article: article,
-        });
+        return h
+          .response({
+            statusCode: 200,
+            status: "Success",
+            message: "Article found successfully",
+            article: article,
+          })
+          .code(200);
       } else {
-        return Boom.notFound("Article Not Found");
+        return Boom.notFound("Article not found");
       }
     } catch (error) {
       return Boom.badRequest(error.message);
     }
   },
   options: {
+    validate: {
+      params: Joi.object({
+        id: Joi.string().required(),
+      }),
+    },
     auth: "firebase",
   },
 };

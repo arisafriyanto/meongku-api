@@ -13,9 +13,11 @@ const any = {
   method: "GET",
   path: "/{any*}",
   handler: (request, h) => {
-    return h.response({
-      message: "Page Not Found",
-    });
+    return h
+      .response({
+        message: "Oops! The page you are looking for was not found",
+      })
+      .code(404);
   },
 };
 

@@ -24,22 +24,23 @@ const init = async () => {
         try {
           const authorizationHeader = request.headers.authorization;
           if (!authorizationHeader) {
-            return Boom.unauthorized("Token otentikasi tidak ada");
+            return Boom.unauthorized("Authentication id token does not exist");
           }
 
           const idToken = authorizationHeader.replace("Bearer ", "");
-
           const decodedToken = await admin.auth().verifyIdToken(idToken);
 
           const credentials = {
-            // Tambahkan informasi pengguna yang diperlukan
+            //? Tambahkan informasi pengguna yang diperlukan
             user_uid: decodedToken.uid,
             email: decodedToken.email,
           };
 
           return h.authenticated({ credentials });
         } catch (error) {
-          return Boom.notFound("Otorisasi gagal");
+          return Boom.forbidden(
+            "Access denied. You do not have permission to access this page"
+          );
         }
       },
     };

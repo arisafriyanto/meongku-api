@@ -88,7 +88,7 @@ Pastikan konfigurasi `.env` dengan nilai yang sesuai dari projek Firebase Anda.
   | /articles/{id} |  GET   | HTTP GET REQUEST to get article by id |
 
   <pre>GET /articles</pre>
-  <pre>PUT /articles/{id}</pre>
+  <pre>GET /articles/{id}</pre>
 
 - **Cats**
 

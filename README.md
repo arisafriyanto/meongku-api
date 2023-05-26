@@ -98,7 +98,7 @@ Pastikan konfigurasi `.env` dengan nilai yang sesuai dari projek Firebase Anda.
   | /cats/{id} |  GET   | HTTP GET REQUEST to get cat by id |
 
   <pre>GET /cats</pre>
-  <pre>PUT /cats/{id}</pre>
+  <pre>GET /cats/{id}</pre>
 
 - **Cat Food Product Recommendations**
 

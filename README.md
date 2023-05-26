@@ -42,7 +42,7 @@ Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentika
   MEASUREMENT_ID=YOUR_MEASUREMENT_ID
   NODE_ENV=localhost</pre>
 
-Pastikan konfigurasi `.env` dengan nilai yang sesuai dari projek Firebase Anda.
+Pastikan nilai konfigurasi `.env` sesuai dengan projek Firebase Anda.
 
 ## The service available
 

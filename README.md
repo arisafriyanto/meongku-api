@@ -100,11 +100,11 @@ Pastikan konfigurasi `.env` dengan nilai yang sesuai dari projek Firebase Anda.
   <pre>GET /cats</pre>
   <pre>GET /cats/{id}</pre>
 
-- **Cat Food Product Recommendations**
+- **Cat Food Recommendations**
 
   |         Endpoint          | Method |                     Description                      |
   | :-----------------------: | :----: | :--------------------------------------------------: |
-  | /cat-food-recommendations |  POST  | HTTP POST REQUEST to get product food recommendation |
+  | /cat-food-recommendations |  POST  | HTTP POST REQUEST to get cat food product recommendation |
 
   <pre>POST /cat-food-recommendations</pre>
 

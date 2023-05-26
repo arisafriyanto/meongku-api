@@ -1,4 +1,4 @@
-<h1 align="center">Meongku Web Service</h1>
+<h1 align="center">Meongku Web Service API</h1>
 
 <div align="center">
 

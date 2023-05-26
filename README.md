@@ -10,7 +10,7 @@
 
 </div>
 
-Meongku Web Service adalah sebuah layanan web yang dapat mengidentifikasi ras kucing secara akurat, memberikan informasi spesifik tentang ras kucing, dan merekomendasikan produk makanan. Layanan ini dirancang untuk membantu pemilik hewan peliharaan memahami kucing mereka dengan lebih baik dan memberikan perawatan yang sesuai dengan kebutuhan hewan peliharaan mereka.
+Meongku Web Service API adalah sebuah layanan web yang dapat mengidentifikasi ras kucing secara akurat, memberikan informasi spesifik tentang ras kucing, dan merekomendasikan produk makanan. Layanan ini dirancang untuk membantu pemilik hewan peliharaan memahami kucing mereka dengan lebih baik dan memberikan perawatan yang sesuai dengan kebutuhan hewan peliharaan mereka.
 
 Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentikasi untuk mengakses setiap layanan. Anda perlu mendaftar untuk menggunakan layanan ini. Anda dapat mendaftar pada service register. Anda dapat register menggunakan nama, email, kata sandi, dan nomor telepon. Setelah berhasil mendaftar, Anda dapat menggunakan email dan kata sandi yang Anda daftarkan untuk melakukan login. Jika Anda memiliki ide untuk meningkatkan keamanan layanan ini, silakan hubungi kami.
 

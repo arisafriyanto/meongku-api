@@ -8,7 +8,7 @@ const {
 
 const catFoodRecsRoute = {
   method: "POST",
-  path: "/cat-food-recommendations",
+  path: "/v1/cat-food-recommendations",
   handler: async (request, h) => {
     const { nameInput, foodTypeInput, ageInput, activityInput, raceInput } =
       request.payload;
@@ -54,7 +54,7 @@ const catFoodRecsRoute = {
 
 const catsRoute = {
   method: "GET",
-  path: "/cats",
+  path: "/v1/cats",
   handler: async (request, h) => {
     try {
       const cats = await getAllCat();
@@ -82,7 +82,7 @@ const catsRoute = {
 
 const catByIdRoute = {
   method: "GET",
-  path: "/cats/{id}",
+  path: "/v1/cats/{id}",
   handler: async (request, h) => {
     const id = request.params.id;
 

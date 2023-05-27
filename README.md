@@ -120,6 +120,7 @@ Pastikan konfigurasi `.env` dengan nilai yang sesuai dari projek Firebase Anda.
 
 Layanan ini menggunakan id token untuk otentikasi. Anda harus memiliki akun untuk mengakses layanan ini. Pertama, jika Anda belum memiliki akun, buatlah akun baru. Kemudian, login untuk mendapatkan id token untuk otentikasi. Anda perlu mengautentikasi diri Anda dengan email dan password. Jika autentikasi valid, Anda dapat menggunakan id token ini untuk mengakses layanan yang terproteksi. Jika tidak, Anda akan mendapatkan pesan kesalahan.
 
+
 ## Dependency
 
 - [Hapi Server](https://www.npmjs.com/package/@hapi/hapi)
@@ -129,3 +130,10 @@ Layanan ini menggunakan id token untuk otentikasi. Anda harus memiliki akun untu
 - [DotEnv](https://www.npmjs.com/package/dotenv)
 - [Joi](https://www.npmjs.com/package/joi)
 - [Nodemon](https://www.npmjs.com/package/nodemon)
+
+
+## Testing
+
+This Web service uses Postman to test.
+
+You can download the Postman documentation [here](https://documenter.getpostman.com/view/27653664/2s93m7W1nU)

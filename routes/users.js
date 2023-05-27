@@ -8,7 +8,7 @@ const Joi = require("joi");
 
 const userDetailRoute = {
   method: "GET",
-  path: "/users/{uid}",
+  path: "/v1/users/{uid}",
   handler: async (request, h) => {
     const { user_uid } = request.auth.credentials;
     const { uid } = request.params;
@@ -52,7 +52,7 @@ const userDetailRoute = {
 
 const editProfileRoute = {
   method: "PUT",
-  path: "/users/{uid}",
+  path: "/v1/users/{uid}",
   handler: async (request, h) => {
     const { uid } = request.params;
     const { name, phone } = request.payload;
@@ -91,7 +91,7 @@ const editProfileRoute = {
 
 const editPasswordRoute = {
   method: "PUT",
-  path: "/users/{uid}/edit-password",
+  path: "/v1/users/{uid}/edit-password",
   handler: async (request, h) => {
     const { uid } = request.params;
     const { email } = request.auth.credentials;

@@ -4,7 +4,7 @@ const Joi = require("joi");
 
 const articleGetAllRoute = {
   method: "GET",
-  path: "/articles",
+  path: "/v1/articles",
   handler: async (request, h) => {
     try {
       const articles = await getAllArticle();
@@ -32,7 +32,7 @@ const articleGetAllRoute = {
 
 const articleDetailRoute = {
   method: "GET",
-  path: "/articles/{id}",
+  path: "/v1/articles/{id}",
   handler: async (request, h) => {
     const { id } = request.params;
     try {

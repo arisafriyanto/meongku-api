@@ -4,10 +4,7 @@ const homeHandler = (request, h) => {
     .response({
       statusCode: 200,
       status: "Success",
-      message: "Hello Bangkit Academy",
-      data: {
-        uid: user_uid,
-      },
+      message: "Hello, Bangkit Academy",
     })
     .code(200);
 };

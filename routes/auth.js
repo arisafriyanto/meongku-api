@@ -8,7 +8,7 @@ const Boom = require("@hapi/boom");
 
 const registerRoute = {
   method: "POST",
-  path: "/register",
+  path: "/v1/register",
   handler: async (request, h) => {
     const { name, email, password, phone } = request.payload;
 
@@ -40,7 +40,7 @@ const registerRoute = {
 
 const loginRoute = {
   method: "POST",
-  path: "/login",
+  path: "/v1/login",
   handler: async (request, h) => {
     try {
       const { email, password } = request.payload;
@@ -53,8 +53,10 @@ const loginRoute = {
           statusCode: 200,
           status: "Success",
           message: "Login successfully",
-          uid: userCredential.user.uid,
-          idToken: idToken,
+          data: {
+            uid: userCredential.user.uid,
+            idToken: idToken,
+          },
         })
         .code(200);
     } catch (error) {
@@ -73,7 +75,7 @@ const loginRoute = {
 
 const logoutRoute = {
   method: "POST",
-  path: "/logout",
+  path: "/v1/logout",
   handler: async (request, h) => {
     try {
       await logoutUser();

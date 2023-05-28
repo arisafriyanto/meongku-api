@@ -38,6 +38,10 @@ const init = async () => {
 
           return h.authenticated({ credentials });
         } catch (error) {
+          // console.log(error);
+
+          // if (error.code === "auth/id-token-expired") {
+          // }
           return Boom.forbidden(
             "Access denied. You do not have permission to access this page"
           );

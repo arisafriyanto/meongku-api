@@ -29,7 +29,7 @@ Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentika
 
 - Simpan `serviceAccountKey.json` di root directory yang didapat dari project Firebase Anda.
 
-- Buat file `.env` di root directory dan isi dengan variabel firebase sebagai berikut: \
+- Edit file `.env` di root directory dan pastikan nilai konfigurasi sesuai dengan projek Firebase Anda. \
 
   <pre>
   PORT=3000
@@ -42,7 +42,6 @@ Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentika
   MEASUREMENT_ID=YOUR_MEASUREMENT_ID
   NODE_ENV=localhost</pre>
 
-Pastikan nilai konfigurasi `.env` sesuai dengan projek Firebase Anda.
 
 ## The service available
 

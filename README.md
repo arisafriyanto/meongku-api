@@ -1,4 +1,4 @@
-<h1 align="center">Meongku Web Service</h1>
+<h1 align="center">Meongku Web Service API</h1>
 
 <div align="center">
 
@@ -6,11 +6,11 @@
 [![Dependency](https://img.shields.io/node/v/@hapi/hapi)](#dependency)
 [![Issue](https://img.shields.io/github/issues/arisafriyanto/meongku-api)](https://github.com/arisafriyanto/meongku-api/issues)
 [![Pull Request](https://img.shields.io/github/issues-pr/arisafriyanto/meongku-api)](https://github.com/arisafriyanto/meongku-api/pulls)
-[![License](https://img.shields.io/github/license/arisafriyanto/meongku-api?color=blue)](https://github.com/arisafriyanto/meongku-api/blob/develop/LICENSE)
+[![License](https://img.shields.io/github/license/arisafriyanto/meongku-api?color=blue)](https://github.com/arisafriyanto/meongku-api/blob/dev-koko/LICENSE)
 
 </div>
 
-Meongku Web Service adalah sebuah layanan web yang dapat mengidentifikasi ras kucing secara akurat, memberikan informasi spesifik tentang ras kucing, dan merekomendasikan produk makanan. Layanan ini dirancang untuk membantu pemilik hewan peliharaan memahami kucing mereka dengan lebih baik dan memberikan perawatan yang sesuai dengan kebutuhan hewan peliharaan mereka.
+Meongku Web Service API adalah sebuah layanan web yang dapat mengidentifikasi ras kucing secara akurat, memberikan informasi spesifik tentang ras kucing, dan merekomendasikan produk makanan. Layanan ini dirancang untuk membantu pemilik hewan peliharaan memahami kucing mereka dengan lebih baik dan memberikan perawatan yang sesuai dengan kebutuhan hewan peliharaan mereka.
 
 Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentikasi untuk mengakses setiap layanan. Anda perlu mendaftar untuk menggunakan layanan ini. Anda dapat mendaftar pada service register. Anda dapat register menggunakan nama, email, kata sandi, dan nomor telepon. Setelah berhasil mendaftar, Anda dapat menggunakan email dan kata sandi yang Anda daftarkan untuk melakukan login. Jika Anda memiliki ide untuk meningkatkan keamanan layanan ini, silakan hubungi kami.
 
@@ -29,7 +29,7 @@ Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentika
 
 - Simpan `serviceAccountKey.json` di root directory yang didapat dari project Firebase Anda.
 
-- Buat file `.env` di root directory dan isi dengan variabel firebase sebagai berikut: \
+- Edit file `.env` di root directory dan pastikan nilai konfigurasi sesuai dengan project Firebase Anda.
 
   <pre>
   PORT=3000
@@ -42,7 +42,6 @@ Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentika
   MEASUREMENT_ID=YOUR_MEASUREMENT_ID
   NODE_ENV=localhost</pre>
 
-Pastikan konfigurasi `.env` dengan nilai yang sesuai dari projek Firebase Anda.
 
 ## The service available
 
@@ -88,7 +87,7 @@ Pastikan konfigurasi `.env` dengan nilai yang sesuai dari projek Firebase Anda.
   | /articles/{id} |  GET   | HTTP GET REQUEST to get article by id |
 
   <pre>GET /articles</pre>
-  <pre>PUT /articles/{id}</pre>
+  <pre>GET /articles/{id}</pre>
 
 - **Cats**
 
@@ -98,13 +97,13 @@ Pastikan konfigurasi `.env` dengan nilai yang sesuai dari projek Firebase Anda.
   | /cats/{id} |  GET   | HTTP GET REQUEST to get cat by id |
 
   <pre>GET /cats</pre>
-  <pre>PUT /cats/{id}</pre>
+  <pre>GET /cats/{id}</pre>
 
-- **Cat Food Product Recommendations**
+- **Cat Food Recommendations**
 
   |         Endpoint          | Method |                     Description                      |
   | :-----------------------: | :----: | :--------------------------------------------------: |
-  | /cat-food-recommendations |  POST  | HTTP POST REQUEST to get product food recommendation |
+  | /cat-food-recommendations |  POST  | HTTP POST REQUEST to get cat food product recommendation |
 
   <pre>POST /cat-food-recommendations</pre>
 

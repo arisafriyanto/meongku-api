@@ -6,7 +6,7 @@
 [![Dependency](https://img.shields.io/node/v/@hapi/hapi)](#dependency)
 [![Issue](https://img.shields.io/github/issues/arisafriyanto/meongku-api)](https://github.com/arisafriyanto/meongku-api/issues)
 [![Pull Request](https://img.shields.io/github/issues-pr/arisafriyanto/meongku-api)](https://github.com/arisafriyanto/meongku-api/pulls)
-[![License](https://img.shields.io/github/license/arisafriyanto/meongku-api?color=blue)](https://github.com/arisafriyanto/meongku-api/blob/dev-koko/LICENSE)
+[![License](https://img.shields.io/github/license/arisafriyanto/meongku-api?color=blue)](https://github.com/arisafriyanto/meongku-api/blob/main/LICENSE)
 
 </div>
 

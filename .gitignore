@@ -1,4 +1,4 @@
 node_modules/
 doc/
 serviceAccountKey.json
-.env
+.env.example

@@ -29,7 +29,7 @@ Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentika
 
 - Simpan `serviceAccountKey.json` di root directory yang didapat dari project Firebase Anda.
 
-- Edit file `.env` di root directory dan pastikan nilai konfigurasi sesuai dengan project Firebase Anda. \
+- Edit file `.env` di root directory dan pastikan nilai konfigurasi sesuai dengan project Firebase Anda.
 
   <pre>
   PORT=3000

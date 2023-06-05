@@ -42,7 +42,6 @@ Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentika
   MEASUREMENT_ID=YOUR_MEASUREMENT_ID
   NODE_ENV=localhost</pre>
 
-
 ## The service available
 
 - **Authentications**
@@ -101,8 +100,8 @@ Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentika
 
 - **Cat Food Recommendations**
 
-  |         Endpoint          | Method |                     Description                      |
-  | :-----------------------: | :----: | :--------------------------------------------------: |
+  |         Endpoint          | Method |                       Description                        |
+  | :-----------------------: | :----: | :------------------------------------------------------: |
   | /cat-food-recommendations |  POST  | HTTP POST REQUEST to get cat food product recommendation |
 
   <pre>POST /cat-food-recommendations</pre>
@@ -119,7 +118,6 @@ Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentika
 
 Layanan ini menggunakan id token untuk otentikasi. Anda harus memiliki akun untuk mengakses layanan ini. Pertama, jika Anda belum memiliki akun, buatlah akun baru. Kemudian, login untuk mendapatkan id token untuk otentikasi. Anda perlu mengautentikasi diri Anda dengan email dan password. Jika autentikasi valid, Anda dapat menggunakan id token ini untuk mengakses layanan yang terproteksi. Jika tidak, Anda akan mendapatkan pesan kesalahan.
 
-
 ## Dependency
 
 - [Hapi Server](https://www.npmjs.com/package/@hapi/hapi)
@@ -130,9 +128,8 @@ Layanan ini menggunakan id token untuk otentikasi. Anda harus memiliki akun untu
 - [Joi](https://www.npmjs.com/package/joi)
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 
-
 ## Testing
 
 This Web service uses Postman to test.
 
-You can download the Postman documentation [here](https://documenter.getpostman.com/view/27653664/2s93m7W1nU)
+You can download the Postman documentation [here](https://documenter.getpostman.com/view/27795742/2s93sWAGPe)

@@ -10,26 +10,26 @@
 
 </div>
 
-Meongku Web Service API adalah sebuah layanan web yang dapat mengidentifikasi ras kucing secara akurat, memberikan informasi spesifik tentang ras kucing, dan merekomendasikan produk makanan. Layanan ini dirancang untuk membantu pemilik hewan peliharaan memahami kucing mereka dengan lebih baik dan memberikan perawatan yang sesuai dengan kebutuhan hewan peliharaan mereka.
+Meongku Web Service API is a web service that can accurately identify cat breeds, provide breed-specific information, and recommend food products. This service is designed to help pet owners understand their cats better and provide care that suits their pets' needs.
 
-Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentikasi untuk mengakses setiap layanan. Anda perlu mendaftar untuk menggunakan layanan ini. Anda dapat mendaftar pada service register. Anda dapat register menggunakan nama, email, kata sandi, dan nomor telepon. Setelah berhasil mendaftar, Anda dapat menggunakan email dan kata sandi yang Anda daftarkan untuk melakukan login. Jika Anda memiliki ide untuk meningkatkan keamanan layanan ini, silakan hubungi kami.
+The first thing you need to know is that the service requires authentication to access each service. You need to register to use the service. You can register on the service register. You can register using your name, email, password, and phone number. After successfully registering, you can use the email and password you registered to log in. If you have any ideas to improve the security of this service, please contact us.
 
 > Base url of this service is: http://localhost:3000
 
-## Instalasi
+## Installation
 
-- Clone repository ini dengan perintah berikut: \
+- Clone repository with the following command: \
   `git clone https://github.com/arisafriyanto/meongku-api.git`
 
-- Masuk ke directori repository dengan perintah: \
+- Move to the repository directory with the command: \
   `cd meongku-api`
 
-- Jalankan perintah berikut untuk menginstal depedency: \
+- Run the following command to install the depedency: \
   `npm install`
 
-- Simpan `serviceAccountKey.json` di root directory yang didapat dari project Firebase Anda.
+- Save `serviceAccountKey.json` in the root directory obtained from your Firebase project.
 
-- Edit file `.env` di root directory dan pastikan nilai konfigurasi sesuai dengan project Firebase Anda.
+- Edit file `.env` in the root directory and make sure the configuration values match your Firebase project.
 
   <pre>
   PORT=3000
@@ -108,7 +108,7 @@ Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentika
 
 ## Authentications
 
-Layanan ini menggunakan id token untuk otentikasi. Anda harus memiliki akun untuk mengakses layanan ini. Pertama, jika Anda belum memiliki akun, buatlah akun baru. Kemudian, login untuk mendapatkan id token untuk otentikasi. Anda perlu mengautentikasi diri Anda dengan email dan password. Jika autentikasi valid, Anda dapat menggunakan id token ini untuk mengakses layanan yang terproteksi. Jika tidak, Anda akan mendapatkan pesan kesalahan.
+This service uses a id token that is created as a session cookie to more easily create an expired token in Firebase for authentication. You must have an account to access this service. First, if you do not have an account, create a new account. Then, login to get a session id for authentication. You need to authenticate yourself with your email and password. If the authentication is valid, you can use this session id to access the protected service. Otherwise, you will get an error message and be expected to log in.
 
 ## Dependency
 
@@ -124,4 +124,4 @@ Layanan ini menggunakan id token untuk otentikasi. Anda harus memiliki akun untu
 
 This Web service uses Postman to test.
 
-You can download the Postman documentation [here](https://documenter.getpostman.com/view/27795742/2s93sWAGPe)
+You can download the Postman documentation <a href="https://documenter.getpostman.com/view/27795742/2s93sWAGPe" target="_blank">here</a>

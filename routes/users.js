@@ -15,7 +15,7 @@ const userDetailRoute = {
 
     try {
       if (user_uid !== uid) {
-        return Boom.badRequest("Invalid id token for user");
+        return Boom.badRequest("Invalid session id for user");
       }
 
       const data = await getUserData(uid);

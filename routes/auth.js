@@ -5,6 +5,7 @@ const {
   logoutUser,
 } = require("./../controllers/auth");
 const Boom = require("@hapi/boom");
+const admin = require("./../config/firebase-admin");
 
 const registerRoute = {
   method: "POST",
@@ -47,18 +48,21 @@ const loginRoute = {
 
       const userCredential = await loginUser(email, password);
       const idToken = userCredential._tokenResponse.idToken;
+      
+      const expiresIn = 60 * 60 * 24 * 7 * 1000; // Durasi cookie (dalam detik), misalnya 7 hari
+      const sessionCookie = await admin.auth().createSessionCookie(idToken, { expiresIn });
 
-      return h
-        .response({
-          statusCode: 200,
-          status: "Success",
-          message: "Login successfully",
-          data: {
-            uid: userCredential.user.uid,
-            idToken: idToken,
-          },
-        })
-        .code(200);
+      const response = h.response({ 
+        statusCode: 200,
+        status: "Success",
+        message: "Login successfully",
+        data: {
+          uid: userCredential.user.uid,
+          sessionId: sessionCookie
+        }
+      }).code(200);
+
+      return response;
     } catch (error) {
       return Boom.badRequest(error.message);
     }
@@ -77,8 +81,11 @@ const logoutRoute = {
   method: "POST",
   path: "/v1/logout",
   handler: async (request, h) => {
+    const { user_uid } = request.auth.credentials;
+
     try {
       await logoutUser();
+      await admin.auth().revokeRefreshTokens(user_uid);
 
       return h.response({
         statusCode: 200,

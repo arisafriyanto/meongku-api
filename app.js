@@ -24,11 +24,11 @@ const init = async () => {
         try {
           const authorizationHeader = request.headers.authorization;
           if (!authorizationHeader) {
-            return Boom.unauthorized("Authentication id token does not exist");
+            return Boom.unauthorized("Authentication session id does not exist");
           }
 
-          const idToken = authorizationHeader.replace("Bearer ", "");
-          const decodedToken = await admin.auth().verifyIdToken(idToken);
+          const sessionId = authorizationHeader.replace("Bearer ", "");
+          const decodedToken = await admin.auth().verifySessionCookie(sessionId);
 
           const credentials = {
             //? Tambahkan informasi pengguna yang diperlukan
@@ -38,10 +38,6 @@ const init = async () => {
 
           return h.authenticated({ credentials });
         } catch (error) {
-          // console.log(error);
-
-          // if (error.code === "auth/id-token-expired") {
-          // }
           return Boom.forbidden(
             "Access denied. You do not have permission to access this page"
           );

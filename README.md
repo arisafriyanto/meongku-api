@@ -106,14 +106,6 @@ Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentika
 
   <pre>POST /cat-food-recommendations</pre>
 
-- **Cat Scanner**
-
-  |   Endpoint   | Method |             Description              |
-  | :----------: | :----: | :----------------------------------: |
-  | /cat-scanner |  POST  | HTTP POST REQUEST to get cat details |
-
-  <pre>GET /cat-scanner</pre>
-
 ## Authentications
 
 Layanan ini menggunakan id token untuk otentikasi. Anda harus memiliki akun untuk mengakses layanan ini. Pertama, jika Anda belum memiliki akun, buatlah akun baru. Kemudian, login untuk mendapatkan id token untuk otentikasi. Anda perlu mengautentikasi diri Anda dengan email dan password. Jika autentikasi valid, Anda dapat menggunakan id token ini untuk mengakses layanan yang terproteksi. Jika tidak, Anda akan mendapatkan pesan kesalahan.

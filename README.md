@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/image/meongku.png" alt="Meongku" height="180" />
+</p>
+
 <h1 align="center">Meongku Web Service API</h1>
 
 <div align="center">

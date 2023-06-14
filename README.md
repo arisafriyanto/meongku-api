@@ -10,41 +10,80 @@
 [![Dependency](https://img.shields.io/node/v/@hapi/hapi)](#dependency)
 [![Issue](https://img.shields.io/github/issues/arisafriyanto/meongku-api)](https://github.com/arisafriyanto/meongku-api/issues)
 [![Pull Request](https://img.shields.io/github/issues-pr/arisafriyanto/meongku-api)](https://github.com/arisafriyanto/meongku-api/pulls)
-[![License](https://img.shields.io/github/license/arisafriyanto/meongku-api?color=blue)](https://github.com/arisafriyanto/meongku-api/blob/dev-koko/LICENSE)
+[![License](https://img.shields.io/github/license/arisafriyanto/meongku-api?color=blue)](https://github.com/arisafriyanto/meongku-api/blob/main/LICENSE)
 
 </div>
 
-Meongku Web Service API adalah sebuah layanan web yang dapat mengidentifikasi ras kucing secara akurat, memberikan informasi spesifik tentang ras kucing, dan merekomendasikan produk makanan. Layanan ini dirancang untuk membantu pemilik hewan peliharaan memahami kucing mereka dengan lebih baik dan memberikan perawatan yang sesuai dengan kebutuhan hewan peliharaan mereka.
+Meongku Web Service API is a web service that can accurately identify cat breeds, provide breed-specific information, and recommend food products. This service is designed to help pet owners understand their cats better and provide care that suits their pets' needs.
 
-Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentikasi untuk mengakses setiap layanan. Anda perlu mendaftar untuk menggunakan layanan ini. Anda dapat mendaftar pada service register. Anda dapat register menggunakan nama, email, kata sandi, dan nomor telepon. Setelah berhasil mendaftar, Anda dapat menggunakan email dan kata sandi yang Anda daftarkan untuk melakukan login. Jika Anda memiliki ide untuk meningkatkan keamanan layanan ini, silakan hubungi kami.
+The first thing you need to know is that the service requires authentication to access each service. You need to register to use the service. You can register on the service register. You can register using your name, email, password, and phone number. After successfully registering, you can use the email and password you registered to log in. If you have any ideas to improve the security of this service, please contact us.
 
 > Base url of this service is: http://localhost:3000
 
-## Instalasi
+## How to setup and run locally
 
-- Clone repository ini dengan perintah berikut: \
-  `git clone https://github.com/arisafriyanto/meongku-api.git`
+1. Clone repository with the following command
+   <pre>git clone https://github.com/arisafriyanto/meongku-api.git</pre>
+2. Move to the repository directory with the command
+   <pre>cd meongku-api/</pre>
+3. Run the following command to install the depedency
+   <pre>npm install</pre>
+4. Save `serviceAccountKey.json` in the root directory obtained from your Firebase project
+5. Edit file `.env` in the root directory and make sure the configuration values match your Firebase project
 
-- Masuk ke directori repository dengan perintah: \
-  `cd meongku-api`
+    <pre>
+    PORT=3000
+    API_KEY=YOUR_API_KEY
+    AUTH_DOMAIN=YOUR_AUTH_DOMAIN
+    PROJECT_ID=YOUR_PROJECT_ID
+    STORAGE_BUCKET=YOUR_STORAGE_BUCKET
+    MESSAGING_SENDER_ID=YOUR_MESSAGING_SENDER_ID
+    APP_ID=YOUR_APP_ID
+    MEASUREMENT_ID=YOUR_MEASUREMENT_ID
+    NODE_ENV=localhost</pre>
+  
+6. Run app
+   <pre>npm run start-dev</pre>
+   <br>
+  
+## How to setup with Google Cloud Platform using Cloud Run
+### What you need
+1. Cloud Environment: Google Cloud Platform (Cloud Run)
+2. Programming Language: Javascript
+3. Web Server: Node.js (Rest Api)
+4. Serverless: Cloud Run
 
-- Jalankan perintah berikut untuk menginstal depedency: \
-  `npm install`
+### Next steps
+1. Open cloud shell and set the project id
+   <pre>gcloud config set project PROJECT_ID</pre>
+2. Clone repository following this command
+   <pre>git clone -b main https://github.com/arisafriyanto/meongku-api.git</pre>
+3. Open the app folder
+   <pre>cd meongku-api/</pre>
+4. Save `serviceAccountKey.json` in the root directory obtained from your Firebase project
+5. Edit file `.env` in the root directory and make sure the configuration values match your Firebase project
 
-- Simpan `serviceAccountKey.json` di root directory yang didapat dari project Firebase Anda.
-
-- Edit file `.env` di root directory dan pastikan nilai konfigurasi sesuai dengan project Firebase Anda.
-
-  <pre>
-  PORT=3000
-  API_KEY=YOUR_API_KEY
-  AUTH_DOMAIN=YOUR_AUTH_DOMAIN
-  PROJECT_ID=YOUR_PROJECT_ID
-  STORAGE_BUCKET=YOUR_STORAGE_BUCKET
-  MESSAGING_SENDER_ID=YOUR_MESSAGING_SENDER_ID
-  APP_ID=YOUR_APP_ID
-  MEASUREMENT_ID=YOUR_MEASUREMENT_ID
-  NODE_ENV=localhost</pre>
+    <pre>
+    PORT=3000
+    API_KEY=YOUR_API_KEY
+    AUTH_DOMAIN=YOUR_AUTH_DOMAIN
+    PROJECT_ID=YOUR_PROJECT_ID
+    STORAGE_BUCKET=YOUR_STORAGE_BUCKET
+    MESSAGING_SENDER_ID=YOUR_MESSAGING_SENDER_ID
+    APP_ID=YOUR_APP_ID
+    MEASUREMENT_ID=YOUR_MEASUREMENT_ID
+    NODE_ENV=localhost</pre>
+   
+6. Build docker image manual
+   <pre>docker buildx build --platform linux/amd64 -t api-meongku:v1 .</pre>
+7. View the results of a successfully created docker image
+   <pre>docker image ls</pre>
+8. Tag a Docker image with a specific label
+   <pre>docker tag {id} gcr.io/{PROJECT_ID}/api-meongku:v1</pre>
+9. Push the docker image to the container registry
+   <pre>docker push gcr.io/{PROJECT_ID}/api-meongku:v1</pre>
+10. Create a service in the Cloud Run, select the previously deployed docker image in the container registry, set port to 3000, adjust other configurations and deploy.
+<br>
 
 ## The service available
 
@@ -112,7 +151,7 @@ Hal pertama yang perlu Anda ketahui adalah bahwa layanan ini memerlukan otentika
 
 ## Authentications
 
-Layanan ini menggunakan id token untuk otentikasi. Anda harus memiliki akun untuk mengakses layanan ini. Pertama, jika Anda belum memiliki akun, buatlah akun baru. Kemudian, login untuk mendapatkan id token untuk otentikasi. Anda perlu mengautentikasi diri Anda dengan email dan password. Jika autentikasi valid, Anda dapat menggunakan id token ini untuk mengakses layanan yang terproteksi. Jika tidak, Anda akan mendapatkan pesan kesalahan.
+This service uses a id token that is created as a session cookie to more easily create an expired token in Firebase for authentication. You must have an account to access this service. First, if you do not have an account, create a new account. Then, login to get a session id for authentication. You need to authenticate yourself with your email and password. If the authentication is valid, you can use this session id to access the protected service. Otherwise, you will get an error message and be expected to log in.
 
 ## Dependency
 
@@ -128,4 +167,12 @@ Layanan ini menggunakan id token untuk otentikasi. Anda harus memiliki akun untu
 
 This Web service uses Postman to test.
 
-You can download the Postman documentation [here](https://documenter.getpostman.com/view/27795742/2s93sWAGPe)
+You can download the Postman documentation <a href="https://documenter.getpostman.com/view/27795742/2s93sWAGPe" target="_blank">here</a>
+
+
+## Github Action CI/CD Cloud Run for developing the Meongku Web Service API
+
+We are using github action to setup, build and deploy the Cloud Run service in our project on Google Cloud Platform. New revision will created after push the changes on main branch of the development repository.
+
+## Resository FastApi ML Model:
+https://github.com/arisafriyanto/cat-breed-fastapi.git

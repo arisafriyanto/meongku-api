@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://storage.googleapis.com/meongku/logo-app/meongku-logo.png" alt="Meongku Logo" width="250" height="250" />
+</p>
+
 <h1 align="center">Meongku Web Service API</h1>
 
 <div align="center">
